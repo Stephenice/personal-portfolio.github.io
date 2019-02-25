@@ -1,0 +1,129 @@
+@media only screen and (max-width:1200px){
+    .banner-content{
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .row{padding: 0 2%;}
+
+}
+
+/* from 768 to 1024 */
+@media only screen and (max-width:1024px){
+
+    body{font-size: 18px;}
+    section{ padding: 60px 0;}
+
+    .long-copy{
+         width: 80%;
+        margin-left: 10%;
+        }
+
+}
+
+/* from 481 to 767 */
+@media only screen and (max-width:767px){
+    body{ font-size: 17px; }
+    section{ padding: 30px 0; }
+    .banner-content, .row { padding: 0 4%; }
+    .col { width: 100%; }
+
+    header{
+        background: url(../images/header-bg.jpg) no-repeat center top; 
+        
+         /* background-position: center;  */
+        min-height: 563px;
+		min-width: 100%;
+        
+    }
+    .long-copy{
+        width: 100%;
+       margin-left: 0%;
+       }
+
+       .logo h1 .logoBlack,
+       .logo h1 .logoWhite
+     {
+    
+    font-size: 19px;
+    }
+       .main-nav{display: none; }
+       .moblie-nav-icon{
+        display: inline-block;
+       }
+
+       .link-effect-3 a::before {
+         border-bottom: none;
+        /*padding: 10px 0; */
+        /* text-align: center; */
+        /* font-size: 100%;
+        font-weight: bold;
+        display: block;
+        border: none; */
+       }
+       .main-nav{
+        margin-top: 35px; 
+        /* margin-left: 25px;   */
+        float: left; }
+
+       .main-nav li {
+        display: block; 
+       }
+
+       .main-nav li a:link,
+        .main-nav li a:visited{
+        display: block;
+        border: 0;
+        font-weight: bold;
+        padding: 10px 0;
+        font-size: 100%;
+        /* text-align: center; */
+        }
+
+        /* sticky */
+        .sticky .main-nav{
+            margin-top: 10px;
+         }
+         
+         .sticky .main-nav li a:link,
+         .sticky .main-nav li a:visited{
+          
+              padding: 10px 0;  
+         }
+         .sticky .moblie-nav-icon{
+           margin-top: 10px;
+        }
+         .sticky .moblie-nav-icon i{
+             color: #555;
+             font-weight: bold;
+         }
+        
+
+
+       .portfolio-showcase li{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+
+
+}
+
+
+/* from 0 to 767 */
+@media only screen and (max-width:480px){
+
+    .portfolio-showcase li{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .contact-form{
+        width: 80%;
+        margin: 0 auto;
+      
+    }
+
+    section{ padding: 25px 0; }
+
+}
