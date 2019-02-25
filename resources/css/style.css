@@ -81,7 +81,31 @@ header{
 	position: relative;*/
 }
 
+/* ------icon---------- */
+.icon{
+    font-size: 150%;
+    /* color: #fff; */
+    list-style: none;
+}
+.icon li{
+    /* width: 45px;
+    height: 45px;
+    padding: 5px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px; */
+}
+.icon li i{
+    /* color: #fff; */
+    color: var(--btn-color);
+}
 
+.icon li i:hover{
+    color: #63ffe8;
+}
 
 /* -----------logo----------- */
 .logo{
