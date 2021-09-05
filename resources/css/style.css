@@ -5,7 +5,9 @@ box-sizing: border-box;
 
 }
 
-
+a{
+    text-decoration: none;
+}
 
 
 :root{
@@ -524,7 +526,7 @@ input[type=submit]{
 /* margin-bottom: 90px;
 height: auto;
 width: 100%; */
-
+box-sizing: border-box;
 }
 
 .portfolio-showcase{
@@ -535,8 +537,58 @@ width: 100%; */
 .portfolio-showcase li{
     display: block;
     float: left;
-    width: 25%;
+    width: calc(25% - 10px);
+    margin: 5px;
+    box-sizing: border-box;
+    /* border: 0.1px solid red; */
+    position: relative;
 }
+
+
+.portfolio_slideup{
+    background: var(--btn-color);
+    color: #fcfcfc;
+    bottom: -100%;
+    height: 20%;
+    left: 0%;
+    position: absolute;
+    width: 100%;
+    transition: bottom 0.5s ease;
+    -webkit-transition: bottom 0.5s ease;
+    -moz-transition: bottom 0.5s ease;
+    -ms-transition: bottom 0.5s ease;
+    -o-transition: bottom 0.5s ease;
+    display: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px 5px 0 0px ;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 3%;
+    text-align: center;
+}
+
+.portfolio_slideup a{
+    color: #fff;
+}
+
+.ionicons{
+    color: rgb(238, 187, 18);
+    font-weight: bolder;
+    font-size: 25px;
+    margin-left: 10%;
+    list-style: none;
+    font-size: 120%;
+    
+}
+
+.portfolio_li:hover .portfolio_slideup{
+   bottom: 0%;
+   display: inline;
+   cursor: pointer;
+}
+
+
 
 .portfolio-photo{
     margin: 0;
