@@ -1,0 +1,103 @@
+/* setup */
+:root {
+  --btn-color: #00a78e;
+  --bg-color-one: #f4f4f4;
+  --color-img: linear-gradient(to right, #00a78e, #0b7a68);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #ffffff;
+  color: #555;
+  font-family: "Lato", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+.clearfix {
+  display: table;
+  content: " ";
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+  position: relative;
+  /* border: 1px solid red; */
+}
+
+/* ----------header---------------- */
+header {
+  min-width: 100vw;
+  position: relative;
+  overflow: hidden;
+  /* background-color: var(--bg-color-one);
+  border-bottom: 5px solid var(--btn-color); */
+  background: linear-gradient(to right, red, purple);
+  padding-top: 5px;
+  padding: 3px;
+}
+
+/* logo */
+.logo {
+  float: left;
+}
+
+/* nav */
+
+.main-nav {
+  list-style: none;
+  float: right;
+  margin-top: 15px;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+  color: var(--btn-color);
+  text-decoration: none;
+  font-size: 90%;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-bottom: 3px solid transparent;
+  font-family: inherit;
+}
+
+.main-nav li a:hover {
+  color: rgb(238, 125, 135);
+}
+
+.main-nav li.active a {
+  color: rgb(238, 125, 135);
+}
+
+/* article */
+main {
+  padding-top: 50px;
+}
+article {
+  width: 70%;
+  float: left;
+  border: 1px solid blue;
+}
+
+aside {
+  float: right;
+  width: 25%;
+  border: 1px solid red;
+}
