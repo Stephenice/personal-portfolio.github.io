@@ -42,11 +42,9 @@ header {
   min-width: 100vw;
   position: relative;
   overflow: hidden;
-  /* background-color: var(--bg-color-one);
-  border-bottom: 5px solid var(--btn-color); */
-  background: linear-gradient(to right, red, purple);
+  background-color: var(--bg-color-one);
+  border-bottom: 5px solid var(--btn-color);
   padding-top: 5px;
-  padding: 3px;
 }
 
 /* logo */
