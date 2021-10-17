@@ -38,7 +38,7 @@ body {
 }
 
 /* ----------header---------------- */
-header {
+.main-header {
   min-width: 100vw;
   position: relative;
   overflow: hidden;
@@ -89,13 +89,55 @@ main {
   padding-top: 50px;
 }
 article {
-  width: 70%;
+  width: 65%;
   float: left;
-  border: 1px solid blue;
+  padding: 5px;
 }
 
 aside {
   float: right;
-  width: 25%;
-  border: 1px solid red;
+  width: 30%;
+  background-color: var(--bg-color-one);
+  border-width: 5px 0 5px 0;
+  border-style: solid;
+  border-color: var(--btn-color);
+  padding: 5px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+aside ul,
+aside a {
+  list-style: none;
+  text-decoration: none;
+}
+
+/* headline */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--btn-color);
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.lists {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+/* footer */
+footer {
+  text-align: center;
+  background-color: var(--color-img);
 }
