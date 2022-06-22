@@ -279,8 +279,9 @@ Hire me to help you build a web application with a magical user experience. Take
        </div>
 
        <div class="row">
+           
         <ul class="btn">
-            <li><a class="a-btn-a scroll js--scroll-to-portfolio" href="#">View More</a></li>
+            <li id="loadMore"><a class="a-btn-a scroll">Load More...</a></li>
             
         </ul>
     </div>
@@ -354,13 +355,13 @@ Hire me to help you build a web application with a magical user experience. Take
             </div>
 
             <div class="row">
-                <form action="#" method="POST" class="contact-form">
+                <form action="sendemail.php" method="POST" class="contact-form">
                     <div class="row">
                         <div class="col span-1-of-3">
                             <label for="name">Name</label>
                         </div>
                         <div class="col span-2-of-3">
-<input type="text" placeholder="Name" id="name" required>
+                    <input type="text" id="name" name="name" required>
                         </div>
                     </div>
 
@@ -369,7 +370,7 @@ Hire me to help you build a web application with a magical user experience. Take
                                 <label for="email">Email</label>
                             </div>
                             <div class="col span-2-of-3">
-    <input type="email" placeholder="Email" id="email" required>
+                    <input type="email" name="email" id="email" required>
                             </div>
                         </div>
 
@@ -378,7 +379,7 @@ Hire me to help you build a web application with a magical user experience. Take
                                     <label for="Mobilenumber">Mobile number </label>
                                 </div>
                                 <div class="col span-2-of-3">
-        <input type="text" placeholder="Mobile number" id="Mobilenumber" required>
+                             <input type="text" name="Mobilenumber" id="Mobilenumber" required>
                                 </div>
                             </div>
 
@@ -387,7 +388,7 @@ Hire me to help you build a web application with a magical user experience. Take
                                         <label for="Message">Message</label>
                                     </div>
                                     <div class="col span-2-of-3">
-           <textarea name="Message" id="" cols="30" rows="10"></textarea>
+           <textarea name="Message" id="message" cols="30" rows="10"></textarea>
                                     </div>
                                 </div>
 
@@ -435,6 +436,7 @@ Hire me to help you build a web application with a magical user experience. Take
 
 <script src="vendors/js/jquery.waypoints.min.js"></script>
 <script src="resources/js/script.js"></script>
+<script src="resources/js/functions.js"></script>
 
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>

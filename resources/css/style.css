@@ -540,7 +540,7 @@ input[type="submit"]:hover {
 }
 
 .portfolio-showcase li {
-  display: block;
+  display: none;
   float: left;
   /* width: calc(50% - 20px); */
   /* height: 500px; */
@@ -557,6 +557,12 @@ input[type="submit"]:hover {
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
+}
+
+.portfolio-showcase li:nth-child(1),
+.portfolio-showcase li:nth-child(2),
+.portfolio-showcase li:nth-child(3) {
+  display: block;
 }
 
 .portfolio_slideup {
