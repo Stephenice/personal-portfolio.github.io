@@ -734,6 +734,9 @@ input[type="submit"]:hover {
   font-size: 30px;
 }
 
+#loadMore {
+  cursor: pointer;
+}
 /* button {
   font-size: 10px;
 } */
