@@ -879,3 +879,13 @@ footer ul li {
 }
 
 /* -----------particles */
+
+/* cta */
+.a-btn-cta {
+  padding: 10px;
+  font-size: 1.2em;
+  color: #fff;
+  border: 2px solid #00a78e;
+  background: #00a78e;
+  border-radius: 10px;
+}
