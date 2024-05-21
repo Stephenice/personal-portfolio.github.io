@@ -839,7 +839,7 @@ textarea {
 
 /* ---------------footer------------ */
 footer {
-  background-color: var(--bg-color-one);
+  /* background-color: var(--bg-color-one); */
   padding: 10px;
 }
 
