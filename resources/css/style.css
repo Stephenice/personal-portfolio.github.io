@@ -92,7 +92,7 @@ header {
 
 /* ------icon---------- */
 .icon {
-  font-size: 150%;
+  font-size: 200%;
   /* color: #fff; */
   list-style: none;
 }
@@ -888,4 +888,5 @@ footer ul li {
   border: 2px solid #00a78e;
   background: #00a78e;
   border-radius: 10px;
+  font-weight: 600;
 }
